@@ -11,3 +11,7 @@ select * from COUNTRIES where COUNTRY_NAME like 'A%' and REGION_ID like '%2%';
 select * from COUNTRIES;
 
 select * from COUNTRIES where COUNTRY_ID like 'A%' and REGION_ID like '3%';
+
+-- count
+
+select count(COUNTRY_NAME) from COUNTRIES where COUNTRY_ID like 'A%';
