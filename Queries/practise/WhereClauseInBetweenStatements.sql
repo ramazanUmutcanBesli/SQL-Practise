@@ -26,3 +26,8 @@ select * from DEPARTMENTS where LOCATION_ID<=2400 and LOCATION_ID>=1800;
 select * from EMPLOYEES where DEPARTMENT_ID in (60,30,110);
 
 select * from COUNTRIES where REGION_ID in (1,4);
+
+select id from cars where (condition ='New' and year>=2018 and price<=50000) or (condition='Used' and year>=2010
+                                                                                  and price<=20000);
+select * from COUNTRIES;
+select * from COUNTRIES where not COUNTRY_ID like '%A%';
